@@ -6,7 +6,7 @@
   <link href="https://volantis.js.org/atom.xml" rel="self"/>
   
   <link href="https://volantis.js.org/"/>
-  <updated>2023-09-02T14:55:28.974Z</updated>
+  <updated>2023-09-03T02:15:05.042Z</updated>
   <id>https://volantis.js.org/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://volantis.js.org/news/2017-10-24/"/>
     <id>https://volantis.js.org/news/2017-10-24/</id>
     <published>2023-09-01T16:00:00.000Z</published>
-    <updated>2023-09-02T14:55:28.974Z</updated>
+    <updated>2023-09-03T02:15:05.042Z</updated>
     
     <content type="html"><![CDATA[<p><span class='p logo center large'>小何</span><span class='p center small logo'>先这样吧，以后再改</span></p><br><p><a href="https://volantis.js.org/">我先说一下</a> 暂时太忙了，没空去写东西，先暂时搭建个模板挂在这里吧，后面一点点完善好了。</p><br><span class='p center small'><div class=note><div id=binft_example></div></div></span><script>!function(){var l,n,i,r;function a(e){for(var t=document.createDocumentFragment(),l=0;l<e;l++){var i=document.createElement("span");i.textContent="_",i.style.color=n?(n=!1,"rgba(0,0,0,0)"):(n=!0,"rgba(0,0,0,1)"),t.appendChild(i)}return t}l=document.getElementById("binft_example"),n=!0,i=["只因你太美 baby 只因你太美 baby.","迎面走来的你让我如此蠢蠢欲动.","这种感觉我从未有.","Cause I got a crush on you who you.","你是我的我是你的谁.","再多一眼看一眼就会爆炸.","再近一点靠近点快被融化.","想要把你占为己有 baby bae.","不管走到哪里.","都会想起的人是你 you you.","我应该拿你怎样.","Uh 所有人都在看着你.","我的心总是不安.","Oh 我现在已病入膏肓.","难道真的因你而疯狂吗."].map(function(e){return e+""}),r={text:"",prefixP:-1,skillI:0,skillP:0,direction:"forward",delay:2,step:1},function e(){var t=i[r.skillI];r.step?r.step--:(r.step=1,r.prefixP<"".length?(0<=r.prefixP&&(r.text+=""[r.prefixP]),r.prefixP++):"forward"===r.direction?r.skillP<t.length?(r.text+=t[r.skillP],r.skillP++):r.delay?r.delay--:(r.direction="backward",r.delay=2):0<r.skillP?(r.text=r.text.slice(0,-1),r.skillP--):(r.skillI=(r.skillI+1)%i.length,r.direction="forward")),l.textContent=r.text,l.appendChild(a(r.prefixP<"".length?Math.min(1,1+r.prefixP):Math.min(1,t.length-r.skillP))),setTimeout(e,75)}()}();</script><br><span class='btn solid large center'><a class="button" href='/v6/getting-started/' title='开始Rap'><i class='fad fa-flag'></i>开始Rap</a></span><br>]]></content>
     
@@ -41,6 +41,8 @@
     
     <category term="官方资讯" scheme="https://volantis.js.org/categories/%E5%AE%98%E6%96%B9%E8%B5%84%E8%AE%AF/"/>
     
+    
+    <category term="小黑子" scheme="https://volantis.js.org/tags/%E5%B0%8F%E9%BB%91%E5%AD%90/"/>
     
   </entry>
   
